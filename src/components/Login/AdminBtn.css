@@ -1,0 +1,30 @@
+/* General styles for the data selector buttons */
+.data-selector-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  .data-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .data-button:hover {
+    background-color: orange;
+    color: black;
+    border: 1px solid black;
+  }
+  

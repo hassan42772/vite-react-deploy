@@ -1,0 +1,30 @@
+#root {
+  max-width: 100%;
+  /* margin: 0 auto; */
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(190, 138, 40);
+ 
+}
+
+/* Webkit-based browsers */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: black; /* Background of the scrollbar track */
+  border-radius: 6px; /* Optional: Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: orange; /* Color of the scrollbar thumb */
+  border-radius: 20px; /* Optional: Rounded corners for the thumb */
+  border: 5px solid black; /* Optional: Border around the thumb for better visibility */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin; /* Thin scrollbar width */
+  scrollbar-color: orange black; /* Thumb color and track color */
+}
